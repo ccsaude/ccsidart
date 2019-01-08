@@ -1,0 +1,40 @@
+07-01-2019 13:35:50 [main] INFO  idart.database.dao.ConexaoJDBC - Conectando ao banco de dados
+URL = jdbc:postgresql://localhost:5432/pharm
+07-01-2019 13:35:50 [main] INFO  idart.database.dao.ConexaoJDBC - Conectado...Criando a declaração
+07-01-2019 13:36:21 [Report task] INFO  tabase.hibernate.util.JDBCUtil - Opening JDBC connection to jdbc:postgresql://localhost:5432/pharm
+07-01-2019 13:37:48 [Report task] ERROR gui.reportParameters.ReportJob - Error running Report task
+net.sf.jasperreports.engine.util.JRFontNotFoundException: Font 'Arial' is not available to the JVM. See the Javadoc for more details.
+	at net.sf.jasperreports.engine.util.JRFontUtil.checkAwtFont(JRFontUtil.java:339)
+	at net.sf.jasperreports.engine.util.JRStyledText.getAwtAttributedString(JRStyledText.java:226)
+	at net.sf.jasperreports.engine.fill.TextMeasurer.measure(TextMeasurer.java:362)
+	at net.sf.jasperreports.engine.fill.JRFillTextElement.chopTextElement(JRFillTextElement.java:1129)
+	at net.sf.jasperreports.engine.fill.JRFillStaticText.prepare(JRFillStaticText.java:183)
+	at net.sf.jasperreports.engine.fill.JRFillElementContainer.prepareElements(JRFillElementContainer.java:329)
+	at net.sf.jasperreports.engine.fill.JRFillBand.fill(JRFillBand.java:419)
+	at net.sf.jasperreports.engine.fill.JRFillBand.fill(JRFillBand.java:378)
+	at net.sf.jasperreports.engine.fill.JRVerticalFiller.fillBandNoOverflow(JRVerticalFiller.java:439)
+	at net.sf.jasperreports.engine.fill.JRVerticalFiller.fillPageHeader(JRVerticalFiller.java:402)
+	at net.sf.jasperreports.engine.fill.JRVerticalFiller.fillReportStart(JRVerticalFiller.java:263)
+	at net.sf.jasperreports.engine.fill.JRVerticalFiller.fillReport(JRVerticalFiller.java:127)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.fill(JRBaseFiller.java:938)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.fill(JRBaseFiller.java:841)
+	at net.sf.jasperreports.engine.fill.JRFiller.fillReport(JRFiller.java:58)
+	at net.sf.jasperreports.engine.JasperFillManager.fillReport(JasperFillManager.java:417)
+	at net.sf.jasperreports.engine.JasperFillManager.fillReport(JasperFillManager.java:378)
+	at model.manager.reports.AbstractJasperReport.fillReport(AbstractJasperReport.java:160)
+	at org.celllife.idart.gui.reportParameters.ReportJob.performJob(ReportJob.java:28)
+	at org.celllife.idart.misc.AbstractCancellableJob$1.run(AbstractCancellableJob.java:39)
+	at java.lang.Thread.run(Thread.java:748)
+07-01-2019 13:37:49 [main] ERROR ers.LivroEletronicoDispensaARV - java.lang.reflect.InvocationTargetException: Error running Report task
+07-01-2019 13:38:34 [Report task] INFO  tabase.hibernate.util.JDBCUtil - Opening JDBC connection to jdbc:postgresql://localhost:5432/pharm
+07-01-2019 13:38:46 [main] DEBUG celllife.idart.misc.LoginTimer - Terminating iDART - TIMER EXPIRED
+07-01-2019 13:38:46 [main] DEBUG dart.start.PharmacyApplication - Logged out..
+07-01-2019 13:38:46 [main] DEBUG celllife.idart.gui.login.Login - Login Form Created
+07-01-2019 14:12:56 [main] INFO  idart.database.dao.ConexaoJDBC - Conectando ao banco de dados
+URL = jdbc:postgresql://localhost:5432/pharm
+07-01-2019 14:12:56 [main] INFO  idart.database.dao.ConexaoJDBC - Conectado...Criando a declaração
+07-01-2019 14:13:21 [Report task] INFO  tabase.hibernate.util.JDBCUtil - Opening JDBC connection to jdbc:postgresql://localhost:5432/pharm
+07-01-2019 14:14:13 [Report task] INFO  tabase.hibernate.util.JDBCUtil - Opening JDBC connection to jdbc:postgresql://localhost:5432/pharm
+07-01-2019 14:39:23 [main] DEBUG celllife.idart.misc.LoginTimer - Terminating iDART - TIMER EXPIRED
+07-01-2019 14:39:23 [main] DEBUG dart.start.PharmacyApplication - Logged out..
+07-01-2019 14:39:23 [main] DEBUG celllife.idart.gui.login.Login - Login Form Created
